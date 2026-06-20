@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use these teaching materials, please cite them as below."
+title: "Interlinking Research Infrastructures: A Focus on Geoscience and Climate"
+abstract: >-
+  Teaching materials for the EPOS Open Science Summer School demonstrating how to combine
+  European environmental Research Infrastructures (ECMWF/ERA5, ARGO/BGC-Argo, CMEMS and
+  GFZ/FDSN), each with a different data-access protocol, into a single scientific analysis.
+type: software
+authors:
+  - family-names: "Ramanantsoa"
+    given-names: "Heriniaina Juliano Dani"
+    affiliation: "University of Bergen"
+    email: "heriniaina.j.ramanantsoa@uib.no"
+keywords:
+  - EPOS
+  - research infrastructures
+  - oceanography
+  - seismology
+  - climate
+  - ERA5
+  - Argo
+  - CMEMS
+  - open science
+license: CC-BY-4.0
+version: "1.0.0"
+date-released: "2025-01-01"

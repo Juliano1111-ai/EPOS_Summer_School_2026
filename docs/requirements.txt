@@ -1,0 +1,5 @@
+# Dependencies to BUILD the documentation site (used by Read the Docs).
+# These are NOT the dependencies to RUN the notebooks — see ../requirements.txt for that.
+# The notebooks are not executed at build time (execute_notebooks: "off"), so the heavy
+# scientific stack (obspy, cdsapi, copernicusmarine, cartopy ...) is intentionally absent.
+jupyter-book>=1.0.3,<2.0

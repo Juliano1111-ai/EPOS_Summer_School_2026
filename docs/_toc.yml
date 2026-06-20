@@ -1,0 +1,12 @@
+# Table of contents — EPOS ON Summer School
+# Reference: https://jupyterbook.org/customize/toc.html
+format: jb-book
+root: intro
+
+chapters:
+  - file: setup
+  - file: application_1_argo_cmems/epos_argo_cmems
+    title: "Application 1 — ARGO & CMEMS"
+  - file: application_2_ecmwf/epos_ecmwf
+    title: "Application 2 — ECMWF & Seismicity"
+  - file: references

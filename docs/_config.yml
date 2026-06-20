@@ -1,0 +1,88 @@
+#######################################################################################
+# Jupyter Book configuration  —  EPOS ON Summer School
+# Reference: https://jupyterbook.org/customize/config.html
+#######################################################################################
+title: "Interlinking Research Infrastructures"
+author: "Heriniaina Juliano Dani Ramanantsoa · University of Bergen"
+logo: _static/logo.png
+copyright: "2025"
+
+# Build only the files listed in _toc.yml (keeps data files out of the rendered site).
+only_build_toc_files: true
+
+#######################################################################################
+# Notebook execution
+#
+# We deliberately DO NOT re-run the notebooks when the book is built. They depend on
+# external services (Copernicus CDS, GFZ FDSN, Copernicus Marine, IFREMER ERDDAP) and
+# on personal credentials, so the book is published with the outputs already stored in
+# each .ipynb. Students re-run them locally (or on Colab/Binder) with their own keys.
+#######################################################################################
+execute:
+  execute_notebooks: "off"
+  allow_errors: false
+
+#######################################################################################
+# MyST Markdown extensions
+#######################################################################################
+parse:
+  myst_enable_extensions:
+    - colon_fence
+    - deflist
+    - dollarmath
+    - linkify
+    - substitution
+    - tasklist
+
+#######################################################################################
+# Bibliography
+#######################################################################################
+bibtex_bibfiles:
+  - references.bib
+
+#######################################################################################
+# HTML / theme
+#######################################################################################
+html:
+  favicon: "_static/logo.png"
+  home_page_in_navbar: true
+  use_issues_button: true
+  use_repository_button: true
+  use_edit_page_button: false
+  extra_footer: |
+    <p style="font-size:0.85em">EPOS ON Summer School ·
+    <a href="https://www.epos-eu.org/on">epos-eu.org/on</a> · #EPOSon</p>
+
+#######################################################################################
+# GitHub repository — used for the repo button AND the Colab/Binder launch buttons.
+#######################################################################################
+repository:
+  url: https://github.com/Juliano1111-ai/EPOS_Summer_School_2026
+  path_to_book: docs
+  branch: main
+
+#######################################################################################
+# "Launch in the cloud" buttons added to every notebook page
+#######################################################################################
+launch_buttons:
+  notebook_interface: "classic"
+  colab_url: "https://colab.research.google.com"
+  binderhub_url: "https://mybinder.org"
+  thebe: false
+
+#######################################################################################
+# Extra Sphinx configuration
+#######################################################################################
+sphinx:
+  config:
+    language: en
+    html_last_updated_fmt: "%Y-%m-%d"
+    bibtex_reference_style: author_year
+    # Keep informational stderr (e.g. download warnings) visible without failing the build.
+    nb_output_stderr: "show"
+    suppress_warnings:
+      - "mystnb.unknown_mime_type"
+      # The notebooks use decorative/non-consecutive heading levels in their markdown
+      # cells on purpose (e.g. a section label jumps straight to ####). These are
+      # intentional and harmless, so we silence the heading-hierarchy notice.
+      - "myst.header"

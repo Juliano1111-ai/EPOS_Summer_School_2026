@@ -1,0 +1,24 @@
+# Dependencies to RUN the notebooks locally (pip).
+# conda/mamba users: prefer environment.yml (cartopy & copernicusmarine install more cleanly).
+
+# Core scientific stack (both applications)
+numpy
+pandas
+matplotlib
+xarray
+netCDF4
+requests
+tqdm
+
+# Application 1 — ARGO & CMEMS
+copernicusmarine>=2.0        # Copernicus Marine Toolbox v2 (new auth; force_download removed)
+
+# Application 2 — ECMWF & seismicity
+obspy                        # seismic waveforms + STA/LTA picker
+cdsapi>=0.7.4                # new Climate Data Store API (…/api endpoint + access token)
+cfgrib                       # GRIB support (optional; ERA5 here is requested as NetCDF)
+
+# Maps for the epicentre plots (Application 2). Falls back to plain matplotlib if absent.
+cartopy
+shapely
+pyproj

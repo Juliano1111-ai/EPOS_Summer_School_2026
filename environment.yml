@@ -1,0 +1,29 @@
+# Conda/mamba environment to run the notebooks.
+#   mamba env create -f environment.yml   (or: conda env create -f environment.yml)
+#   conda activate epos-school
+name: epos-school
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  # Core scientific stack
+  - numpy
+  - pandas
+  - matplotlib
+  - xarray
+  - netcdf4
+  - requests
+  - tqdm
+  # Application 1 — ARGO & CMEMS
+  - copernicusmarine>=2.0
+  # Application 2 — ECMWF & seismicity
+  - obspy
+  - cdsapi>=0.7.4
+  - cfgrib
+  # Maps for epicentre plots
+  - cartopy
+  - shapely
+  - pyproj
+  # Jupyter
+  - jupyterlab
+  - ipykernel
