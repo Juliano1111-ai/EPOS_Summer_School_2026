@@ -12,6 +12,8 @@ dependencies:
   - matplotlib
   - xarray
   - netcdf4
+  - cftime
+  - scipy
   - requests
   - tqdm
   # Application 1 — ARGO & CMEMS

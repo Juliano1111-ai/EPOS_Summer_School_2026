@@ -1,3 +1,10 @@
+```{image} _static/epos_logo.png
+:alt: EPOS — European Plate Observing System
+:width: 300px
+:align: center
+:target: https://www.epos-eu.org/
+```
+
 # Interlinking Research Infrastructures
 
 ### A hands-on summer-school module on Geoscience & Climate data
