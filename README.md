@@ -2,7 +2,7 @@
 
 <img src="docs/_static/logo.png" alt="EPOS ON Summer School" width="130"/>
 
-# Interlinking Research Infrastructures
+# Interlinking Research Infrastructures in Earth Science
 ### A Focus on Geoscience & Climate — EPOS ON Summer School
 
 [![Documentation Status](https://readthedocs.org/projects/epos-summer-school-2026/badge/?version=latest)](https://epos-summer-school-2026.readthedocs.io/en/latest/)
@@ -96,5 +96,5 @@ See [`CITATION.cff`](CITATION.cff).
 
 ---
 
-*Author:* **Heriniaina Juliano Dani Ramanantsoa**, University of Bergen ·
+*Author:* **Juliano Ramanantsoa**, University of Bergen ·
 ✉️ heriniaina.j.ramanantsoa@uib.no
