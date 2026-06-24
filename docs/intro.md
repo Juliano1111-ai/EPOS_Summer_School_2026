@@ -15,16 +15,14 @@ Changing Climate and Geoscience.
 -- EPOS ON Summer School
 ```
 
-Welcome! This is a the lecture material **“Interlinking Research
+Welcome! This is lecture materials **“Interlinking Research
 Infrastructures in Earth System: A Focus on Geoscience and Climate”**, delivered at the
-[EPOS Open Science](https://www.epos-eu.org/on) Summer School. The goal is simple:
+[EPOS ON](https://www.epos-eu.org/on) Summer School. The goal is
 to show, with real code and real data, how the major European environmental
 **Research Infrastructures (RIs)** can be combined to ask scientific questions that no
 single archive could answer alone.
 
-Each RI exposes its data through a *different* access protocol. Rather than treating
-that as a nuisance, we use it as the teaching thread — by the end you will have
-retrieved data through four distinct mechanisms and stitched the results into a single
+Each RI exposes its data through a *different* access protocol. Here we show how to access, collect, and combine data from atmospheric and ocean science as well as geoscience; and treat results into a single
 analysis.
 
 | Domain | Research Infrastructure | Access mechanism |
