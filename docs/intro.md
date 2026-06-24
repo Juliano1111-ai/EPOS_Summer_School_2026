@@ -10,13 +10,13 @@
 ### A hands-on summer-school module on Geoscience & Climate data
 
 ```{epigraph}
-Climate change is no longer a projection — it is a measured reality.
+Changing Climate and Geoscience.
 
 -- EPOS ON Summer School
 ```
 
-Welcome! This is the practical component of the lecture **“Interlinking Research
-Infrastructures: A Focus on Geoscience and Climate”**, delivered at the
+Welcome! This is a the lecture material **“Interlinking Research
+Infrastructures in Earth System: A Focus on Geoscience and Climate”**, delivered at the
 [EPOS Open Science](https://www.epos-eu.org/on) Summer School. The goal is simple:
 to show, with real code and real data, how the major European environmental
 **Research Infrastructures (RIs)** can be combined to ask scientific questions that no
